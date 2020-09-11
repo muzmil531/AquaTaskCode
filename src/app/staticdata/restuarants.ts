@@ -1,5 +1,6 @@
 export const Restaurants= [{
     id: 1,
+    priority:2,
     name: "Mission Chinese Food",
     neighborhood: "Manhattan",
     photograph: "https://i.pinimg.com/originals/cc/a1/13/cca11355621eb313496d29f0851a6f5f.jpg",
@@ -39,7 +40,7 @@ export const Restaurants= [{
     ]
   }, {
     id: 2,
-    name: "Emily",
+    name: "Emily",priority:1,
     neighborhood: "Brooklyn",
     photograph: "https://www.businesstodaync.com/wp-content/uploads/2019/10/Lost-Worlds-Brewery-Front-Rendering_750.jpg",
     address: "919 Fulton St, Brooklyn, NY 11238",
@@ -77,7 +78,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 3,
+    id: 3,priority:3,
     name: "Kang Ho Dong Baekjeong",
     neighborhood: "Manhattan",
     photograph: "https://i.pinimg.com/originals/64/02/32/6402320d870c62c49cb9df7333d3bfe3.jpg",
@@ -116,7 +117,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 4,
+    id: 4,priority:5,
     name: "Katz's Delicatessen",
     neighborhood: "Manhattan",
     photograph: "https://media-cdn.tripadvisor.com/media/photo-s/11/e6/d9/c6/restaurant-front.jpg",
@@ -155,7 +156,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 5,
+    id: 5,priority:4,
     name: "Roberta's Pizza",
     neighborhood: "Brooklyn",
     photograph: "https://media-cdn.tripadvisor.com/media/photo-s/04/91/bd/93/front-of-restaurant.jpg",
@@ -195,7 +196,7 @@ export const Restaurants= [{
     ]
   }, {
     id: 6,
-    name: "Hometown BBQ",
+    name: "Hometown BBQ",priority:6,
     neighborhood: "Brooklyn",
     photograph: "https://www.roastedmontreal.com/wp-content/uploads/2014/10/Restaurant-Sumac-Front.jpg",
     address: "454 Van Brunt St, Brooklyn, NY 11231",
@@ -233,7 +234,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 7,
+    id: 7,priority:7,
     name: "Superiority Burger",
     neighborhood: "Manhattan",
     photograph: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSe8VCuW73Vs8WLtMAtGD-ZGvz5PZuKnTJBmA&usqp=CAU",
@@ -272,7 +273,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 8,
+    id: 8,priority:8,
     name: "The Dutch",
     neighborhood: "Manhattan",
     photograph: "https://media-cdn.tripadvisor.com/media/photo-s/13/17/96/18/nazare.jpg",
@@ -312,7 +313,7 @@ export const Restaurants= [{
     ]
   }, {
     id: 9,
-    name: "Mu Ramen",
+    name: "Mu Ramen",priority:9,
     neighborhood: "Queens",
     photograph: "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_951/https://belezagoa.com/wp-content/uploads/2019/06/nazare-1.jpg",
     address: "1209 Jackson Ave, Queens, NY 11101",
@@ -350,7 +351,7 @@ export const Restaurants= [{
       }
     ]
   }, {
-    id: 10,
+    id: 10,priority:10,
     name: "Casa Enrique",
     neighborhood: "Queens",
     photograph: "https://theweddingbrigade.s3.amazonaws.com/media/photologue/photo/a0ec7ce8-412f-41c9-9e71-4db07f4bb021.jpg",

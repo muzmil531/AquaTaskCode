@@ -16,14 +16,14 @@ import { HomeComponent } from './components/home/home.component';
 import { RestuarantsService } from './service/restuarants.service';
 
 import{ FormsModule } from '@angular/forms';
-import { FiltersearchPipe } from './components/home/filtersearch.pipe'
+import { RestuarantComponent } from './components/restuarant/restuarant.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavComponent,
     HomeComponent,
-    FiltersearchPipe
+    RestuarantComponent
   ],
   imports: [
     BrowserModule,

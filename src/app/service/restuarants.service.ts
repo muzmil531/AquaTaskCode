@@ -18,6 +18,12 @@ export class RestuarantsService {
     // console.log(this.restuarants)
     return this.restuarants
   }
+
+  getSpecifiRestuarantData(id){
+    return this.restuarants.find(x => x.id === id)
+    // x (object)
+    // x.id === id
+  }
 }
 
 export interface RestData {
