@@ -1,0 +1,33 @@
+<div class="bannerlayer">
+
+    <h1><b>WELCOME</b></h1> <br>
+    <h3>TO</h3><br>
+    <h1><i><b>AquaRestaurants</b></i></h1>
+
+</div>
+
+<div class="flex-properties-container">
+
+    <div class="search-title-holder">
+        <h2><i>Search your favourite restuarant</i></h2>
+    </div>
+    <div style="text-align: right;" class="searchboxdiv">
+        <input class="searchofrest" type="text" placeholder="Search the Restuarant" [(ngModel)]="shopname"
+            (input)="Search()">
+    </div>
+
+</div>
+
+ 
+<div class="flex-properties-container main-data">
+    <div *ngFor="let data of restuarants" class="data-layout-section">
+        <h3 style="text-align:center"><b>{{data.name}}</b></h3>
+        <img src="{{data.photograph}}" alt="">
+
+        <p class="neighborhood"><i>An {{data.neighborhood}} restuarant</i></p>
+        <!-- cuisine_type -->
+        <p><b>Cuisine Type :</b> <i>{{data.cuisine_type}}</i></p>
+       <div style="text-align:right"> <button>Click Here</button></div>
+    </div>
+
+</div>

@@ -1,0 +1,87 @@
+.bannerlayer{
+    background: url('../../../assets/banner.jpg');
+    background-size: 100%;
+    /* background-position: center;    */
+    height: 120px;
+    background-repeat: no-repeat;
+
+    /*  */
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    padding: 12%;
+}
+.bannerlayer h1{
+    font-size: 60px;text-shadow: 2px 2px 4px #000000;
+}
+.bannerlayer h3{
+    font-size: 40px;
+}
+
+.flex-properties-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-data{
+    margin: 1%;
+    justify-content: space-around;
+}
+.data-layout-section{
+    width: 20%;
+    border:2px solid #ccc;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+}
+
+.data-layout-section img{
+    width: 100%;
+    height: 130px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding:0;
+}
+
+.data-layout-section .neighborhood{
+    color: red;
+}
+
+.data-layout-section button{
+    border:none;
+    padding:2%; 
+    background-color: darkred;
+    color:white;
+    border-radius: 10px;
+}
+
+.data-layout-section button:focus{
+    /* display: none; */outline: none;
+}
+
+input:focus{
+    /* border: none; */
+    outline: none;
+}
+
+.searchofrest{
+    padding: 2%;
+    /* margin:1%; */
+    border-radius: 10px;
+}
+
+.search-title-holder{
+    text-align: left;
+    width: 65%;
+    padding: 1%;
+}
+.searchboxdiv{
+    text-align: right; 
+    width: 30%;
+    padding: 1%;
+}
