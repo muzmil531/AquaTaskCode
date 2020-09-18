@@ -9,7 +9,8 @@ export const Restaurants= [{
       lat: 40.713829,
       lng: -73.989667
     },
-    cuisine_type: "Chinese",
+    
+    cuisine_type: "Indian",
     operating_hours: {
       Monday: "5:30 pm - 11:00 pm",
       Tuesday: "5:30 pm - 12:00 am",
